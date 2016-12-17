@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OMGRssParser_Example' do
+  pod 'OMGRssParser', :path => '../'
+
+  target 'OMGRssParser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
