@@ -20,8 +20,9 @@ rssParser.parse { (info, error) in
 ```
 
 ## Requirements
-* iOS 8.0+ 
-* Swift 3 
+* iOS 8.0+
+* Swift 3
+
 ## Installation
 
 OMGRssParser is available through [CocoaPods](http://cocoapods.org). To install
