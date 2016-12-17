@@ -9,14 +9,16 @@
 
 ## Example
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-## Usage
 
-```let rssParser = OMGRssParser(urlStr: "http://ericasadun.com/feed/")
+## Usage
+```
+let rssParser = OMGRssParser(urlStr: "http://ericasadun.com/feed/")
 rssParser.parse { (info, error) in
     	guard let info = info else {return}
             print(info.title)
     }
 ```
+
 ## Requirements
 * iOS 8.0+ 
 * Swift 3 
