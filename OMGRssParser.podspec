@@ -29,8 +29,9 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.platform     = :ios, "8.0"
 
-  s.source_files = 'OMGRssParser/Classes/**/*'
+  s.source_files = 'OMGRssParser/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'OMGRssParser' => ['OMGRssParser/Assets/*.png']
@@ -38,5 +39,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.dependency 'Ji', '~> 2.0.0'
 end

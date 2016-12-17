@@ -2,8 +2,8 @@ use_frameworks!
 
 target 'OMGRssParser_Example' do
   pod 'OMGRssParser', :path => '../'
-
-  target 'OMGRssParser_Tests' do
+  pod 'Ji', '~> 2.0.0'
+target 'OMGRssParser_ExampleTests' do
     inherit! :search_paths
 
     

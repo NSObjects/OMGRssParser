@@ -1,0 +1,24 @@
+PODS:
+  - Ji (2.0.1):
+    - Ji/Ji (= 2.0.1)
+  - Ji/Ji (2.0.1):
+    - Ji/Ji-libxml
+  - Ji/Ji-libxml (2.0.1)
+  - OMGRssParser (0.1.0):
+    - Ji (~> 2.0.0)
+
+DEPENDENCIES:
+  - Ji (~> 2.0.0)
+  - OMGRssParser (from `../`)
+
+EXTERNAL SOURCES:
+  OMGRssParser:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Ji: 6bb602a28dd08b804158f64990e6051ed5de0110
+  OMGRssParser: 6f4492f66ae641a2c56c4a57436c2c03b4e75c72
+
+PODFILE CHECKSUM: 968d574a4b4713fcbda5072b4c913915fd3b925a
+
+COCOAPODS: 1.1.1

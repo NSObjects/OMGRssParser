@@ -1,0 +1,27 @@
+{
+  "name": "OMGRssParser",
+  "version": "0.1.0",
+  "summary": "A short description of OMGRssParser.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/OMGRssParser",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "NSObjects": "mrqter@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/OMGRssParser.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OMGRssParser/Classes/**/*.swift",
+  "dependencies": {
+    "Ji": [
+      "~> 2.0.0"
+    ]
+  }
+}

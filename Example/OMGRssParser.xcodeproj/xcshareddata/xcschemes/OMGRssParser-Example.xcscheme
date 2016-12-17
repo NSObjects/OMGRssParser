@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -40,7 +40,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -49,6 +50,16 @@
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
                BuildableName = "OMGRssParser_Tests.xctest"
                BlueprintName = "OMGRssParser_Tests"
+               ReferencedContainer = "container:OMGRssParser.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AB1720191E0521FC002D99EE"
+               BuildableName = "OMGRssParser_ExampleTests.xctest"
+               BlueprintName = "OMGRssParser_ExampleTests"
                ReferencedContainer = "container:OMGRssParser.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -85,6 +96,13 @@
             ReferencedContainer = "container:OMGRssParser.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
